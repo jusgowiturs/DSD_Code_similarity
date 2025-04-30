@@ -3,3 +3,4 @@
 64/
 #ignore virtual environment
 .venv/
+*.pyc
