@@ -41,7 +41,7 @@ tree_output = get_top_level_files()
 print(tree_output)
 
 # Append to README.md
-with open("README.md", "a") as readme:
-    readme.write("\n## 📁 Files in Current Directory\n\n```text\n")
+with open("README.md", "w+", encoding="utf-8") as readme:
+    readme.write("\n##  Files in Current Directory\n\n```text\n")
     readme.write(tree_output)
     readme.write("\n```\n")
